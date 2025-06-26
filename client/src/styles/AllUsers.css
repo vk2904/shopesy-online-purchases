@@ -1,0 +1,52 @@
+.all-users-page{
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 100%;
+    padding: 15vh 3vw 3vh 3vw;
+}
+
+.all-users-page h3{
+
+    color: var(--text-color);
+}
+
+.user-cards{
+    margin-top: 4vh;
+    height: 70vh;
+    width: 70vw;
+    padding: 2vh 1vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-card{
+
+    color: var(--text-color);
+    display: flex;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 3vh 2vw;
+    width: 65vw;
+    border-radius: 0.8rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.user-card span{
+
+
+}
+
+.user-card span h5{
+
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.user-card span p{
+    color: var(--text-color);
+    margin: 0;
+}
+

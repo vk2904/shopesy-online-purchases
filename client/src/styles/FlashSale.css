@@ -1,0 +1,58 @@
+.flashSaleContainer{
+
+    margin: 3vh 10px 10vh 10px;
+    background-color: var(--background-color);
+    padding: 10px 0;
+}
+.flashSaleContainer h3{
+
+    margin-left: 2vw;
+    color: var(--text-color);
+}
+
+.flashSale-body{
+    display: flex;
+    gap: 20px;
+    margin: 3vh 2vw;
+    overflow-x: scroll;
+    height: fit-content;
+    padding: 20px 20px;
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+}
+
+.flashSaleCard{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0.3rem;
+}
+
+.flashSaleCard:hover{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.flashSaleCard img{
+
+    height: 40vh;
+    width: 15vw;
+}
+
+.flashSaleCard-data{
+    width: 15vw;
+
+}
+
+.flashSaleCard-data h6{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.flashSaleCard-data p{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.flashSaleCard-data h5{
+    margin: 0;
+    color: #EF4444;
+}
