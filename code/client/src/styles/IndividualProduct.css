@@ -1,0 +1,131 @@
+.IndividualProduct-page{
+    margin-top: 15vh;
+}
+
+.IndividualProduct-page span{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.IndividualProduct-page span p{
+    padding-bottom: 3px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.IndividualProduct-body{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.IndividualProduct-body .carousel{
+
+    width: 40%;
+    margin: 0 5%;
+    height: 70vh;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.IndividualProduct-body .carousel img{
+    height: 70vh;
+    width: 50%;
+}
+
+.carousel-control-prev span, .carousel-control-next span{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.IndividualProduct-data{
+    margin-top: 1vh;
+    width: 46%;
+}
+
+.IndividualProduct-data h3{
+
+    color: var(--primary-color);
+}
+
+.IndividualProduct-data p{
+    color: var(--text-color);
+    
+}
+.IndividualProduct-data span{
+    
+    margin: 0;
+    display: flex;
+    gap: 5px;
+}
+.IndividualProduct-data span h5{
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--text-color);
+}
+.IndividualProduct-data span h5 b{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.IndividualProduct-data span s{
+    color: #EF4444;
+    font-size: 1rem;
+}
+.IndividualProduct-data span p{
+
+    color: var(--secondary-color);
+}
+
+.IndividualProduct-data h6{
+    color: var(--text-color);
+    margin-top: 3vh;
+}
+
+.IndividualProduct-data h6 b{
+
+    font-weight: 600;
+}
+
+.IndividualProduct-data span label{
+
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin-bottom: 3vh;
+}
+
+.IndividualProduct-data span select{
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 2.5vh;
+}
+.IndividualProduct-data span select option{
+
+    color: var(--text-color);
+}
+
+
+.productBuyingButtons{
+    margin-top: 10vh;
+    display: flex;
+    gap: 20px;
+
+}
+
+.productBuyingButtons button{
+    width: 200px;
+    padding: 10px 0;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.2rem;
+}
+.productBuyingButtons button:first-child{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.productBuyingButtons button:last-child{
+    background-color: var(--accent-color);
+    color: var(--white);
+}
