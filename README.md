@@ -4,7 +4,9 @@ ShopEZ is a full-stack e-commerce web application that allows users to browse, s
 
 ## Video Demonstration
 
-[Project Demo Video](https://drive.google.com/file/d/1STntYGIJPmIHG_0YWecXMZMbdIQQxeKb/view?usp=drivesdk)
+[Project Demo Video](https://drive.google.com/file/d/1STntYGIJPmIHG_0YWecXMZMbdIQQxeKb/view?usp=drivesdk) <br/>
+https://drive.google.com/file/d/1STntYGIJPmIHG_0YWecXMZMbdIQQxeKb/view?usp=drivesdk
+
 
 ---
 
